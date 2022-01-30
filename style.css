@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.one,
+.two,
+.three,
+.four {
+    min-width: 75%;
+}
+
+.header,
+.header ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul {
+    gap: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* container styling */
