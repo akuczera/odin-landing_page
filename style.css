@@ -1,24 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
-.one,
-.two,
-.three,
-.four {
-    min-width: 75%;
-}
-
-.header,
-.header ul {
-    display: flex;
-    justify-content: space-between;
-}
-
-.header ul {
-    gap: 20px;
+    font-family: Roboto, sans-serif;
+    margin: 0;
 }
 
 ul {
@@ -27,6 +11,35 @@ ul {
 
 a {
     text-decoration: none;
+    color: #E5E7EB;
 }
 
-/* container styling */
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+.header ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: #F9FAF8;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/* CONTAINERS */
+.width-container {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.one {
+    background-color: #1F2937;
+}
