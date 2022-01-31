@@ -61,17 +61,40 @@ button {
     background-color: #1F2937;
 }
 
-.two img {
-    flex-wrap: wrap;
-}
-
 .two p {
     font-size: 18px;
     color: #F9FAF8;
     margin: 0px 0px 16px 0px;
 }
 
+.three {
+    text-align: center;
+    background-color: #F9FAF8;
+}
+
+.three h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.three img {
+    border: #3882F6 solid 4px;
+    border-radius: 12px;
+}
+
 .hero {
     display: flex;
     border: red solid 1px;
+}
+
+.card-cont {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-cont p {
+    width: 200px;
+    color: #1F2937;
 }
