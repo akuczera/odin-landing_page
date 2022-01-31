@@ -68,8 +68,14 @@ button {
 }
 
 .three {
-    text-align: center;
     background-color: #F9FAF8;
+}
+
+.three .width-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%; 
 }
 
 .three h2 {
@@ -97,4 +103,20 @@ button {
 .card-cont p {
     width: 200px;
     color: #1F2937;
+    text-align: center;
+}
+
+.four {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 24px;
+    text-align: right;
 }
