@@ -71,11 +71,9 @@ button {
     background-color: #F9FAF8;
 }
 
-.three .width-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 80%; 
+.width-container-2 {
+    max-width: 70%;
+    margin: 0 auto;
 }
 
 .three h2 {
@@ -87,6 +85,13 @@ button {
 .three img {
     border: #3882F6 solid 4px;
     border-radius: 12px;
+}
+
+.three .width-container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
 }
 
 .hero {
@@ -112,11 +117,13 @@ button {
     font-style: italic;
     font-weight: lighter;
     display: flex;
-    align-items: center;
     justify-content: center;
+    padding: 80px 0 50px 0;
 }
 
 .quote {
     font-size: 24px;
     text-align: right;
+    font-weight: 700;
+    font-style: normal;
 }
