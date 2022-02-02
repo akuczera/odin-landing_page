@@ -2,7 +2,9 @@
 
 ## Lessons learned
 
-Here are some of the lessons I learned while doing this project.
+Here are some of the lessons I learned while doing this project:
+
+
 
 ### Image Attribution
 
