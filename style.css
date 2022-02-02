@@ -24,9 +24,9 @@ h1 {
 .two button {
     background-color: #3882F6;
     color: #E5E7EB;
-    padding: 5px 30px;
+    padding: 10px 30px;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
     font-size: 18px;
 }
 
@@ -52,7 +52,7 @@ h1 {
 
 /* CONTAINERS */
 .width-container {
-    max-width: 80%;
+    max-width: 60%;
     margin: 0 auto;
 }
 
@@ -60,6 +60,21 @@ h1 {
 .two,
 .six {
     background-color: #1F2937;
+}
+
+.shrink {
+    width: 40%;
+}
+.hero {
+    display: flex;
+    border: red solid 1px;
+    max-height: 300px;
+    padding: 80px 0;
+    justify-content: space-between;
+}
+
+.hero img {
+    object-fit: cover;
 }
 
 .two p {
@@ -95,10 +110,6 @@ h1 {
     margin-bottom: 50px;
 }
 
-.hero {
-    display: flex;
-    border: red solid 1px;
-}
 
 .card-cont {
     display: flex;
