@@ -1,11 +1,5 @@
 # odin-landing_page
 
-## Lessons learned
-
-Here are some of the lessons I learned while doing this project:
-
-
-
 ### Image Attribution
 
 The following photo attributions are in order of the photos shown on the website.
